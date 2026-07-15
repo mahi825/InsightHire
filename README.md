@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # InsightHire Frontend
 
 InsightHire is a responsive career workspace frontend for managing resumes, job matches, resume analysis, interview preparation, analytics, and profile settings.
@@ -25,3 +26,7 @@ npm run build
 ```
 
 Backend and API integration are pending; frontend service placeholders are available in `src/services/api.js`.
+=======
+# InsightHire
+AI Resume Analysis Project
+>>>>>>> 854ad60aa223ecd96c80fdd1a4ddd12ecf0a5fc7
