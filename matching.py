@@ -4,12 +4,10 @@ matching.py
 Compares a candidate's resume text against a job description (JD) text
 and returns a similarity score using sentence embeddings + cosine similarity.
 """
-
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 _model = SentenceTransformer('all-MiniLM-L6-v2')
-
 
 def calculate_match_score(resume_text, jd_text):
     """
